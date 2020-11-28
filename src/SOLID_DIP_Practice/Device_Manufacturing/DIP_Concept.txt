@@ -1,0 +1,20 @@
+				******Dependency Inversion Principle-Template pattern approach******
+
+Problem Statement:-
+
+*When Higher Level Module Depends on Lower Level Modules,Which is susceptible to change.
+
+-Like when traffic signal rules are depends on each area,country or car color.
+-Like when each car has its own controlling mechanism,cars steering side.
+-Like when Higher Level agenda or a task, Which is needed to be performed by a group of Lower Level entities
+ is depends on each lower level entities identity or behavior.
+
+Solution:-
+ 
+Both modules should be depending upon Abstraction.
+Abstractions should not depends on details, details should depend upon abstraction.
+Because, Abstract classes and interfaces don't change as often as concrete derivatives.
+Depending on any concrete class which don't change,is okay.Like 'String' class.
+  
+Side Note:-
+Tight Coupling can be avoided using DIP,SRP and OCP principles.

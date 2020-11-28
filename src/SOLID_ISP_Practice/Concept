@@ -1,0 +1,6 @@
+*****Interface Segrigation Method*****
+
+"Having too many is better than having few."
+
+In-short having a monolithic class which is immovable or get annoyed by any new required object creation,
+It's better to split that class each method in separate 'Interface',and then implement accordingly as per your requirement for any new object.
